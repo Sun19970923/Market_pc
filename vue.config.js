@@ -54,8 +54,9 @@ module.exports = {
         disableHostCheck: false,
         proxy: {
             '/fingernft': {
-                target: 'https://fingernftv2.fingerchar.com',
+                // target: 'https://fingernftv2.fingerchar.com',
                 target: 'http://pc.hbeasts.com/',
+                changeOrigin: true,
             },
             "/static":{
                 // target: 'https://fingernftv2.fingerchar.com',

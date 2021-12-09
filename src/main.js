@@ -42,6 +42,7 @@ import './permission'
 import '../theme/index.css'
 
 import '@/styles/index.scss';
+import '@/styles/update_style.scss';
 
 import '../static/font/font.css';
 

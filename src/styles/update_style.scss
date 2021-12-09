@@ -1,0 +1,319 @@
+html,
+body,
+#app {
+  background-color: #242736;
+}
+.detail-left {
+  background-color: #242736;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  * {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+//  首页加载
+.el-loading-mask {
+  background-color: #242736;
+}
+.banner-img {
+  max-height: 800px;
+}
+//  搜索框
+.header-search {
+  background-color: #242736;
+  .iconfont {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .el-input__inner {
+    border: 1px solid #5c6281;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.head-wrapper {
+  .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .user-link .avatar .iconfont {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+#home-header {
+  background-color: rgba(36, 39, 54, 0.5) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.search-options {
+  .nft-sorts {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .sort-icon {
+    filter: invert(100%);
+    opacity: 0.7;
+  }
+  .filter-btn {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+.el-button {
+  background-color: #2d5791;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #2d5791;
+  &:hover {
+    background-color: #2d5791;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid #2d5791;
+  }
+  &:focus {
+    background-color: #2d5791;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid #2d5791;
+  }
+}
+.u-share-btn {
+  background-color: #2d5791 !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  border: 1px solid #2d5791 !important;
+  &:hover {
+    background-color: #2d5791 !important;
+    color: rgba(255, 255, 255, 1) !important;
+    border: 1px solid #2d5791 !important;
+  }
+}
+.search-list,
+.new-nft-list {
+  min-height: 600px;
+  .loading-over {
+    margin: auto;
+  }
+  .nft-item {
+    .inner {
+      background-color: #282b3a;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      // box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+      .cpointer {
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}
+.item-tab .tab-content-info .tab-info .tab-title {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.item-tab .tab-content-info .tab-info .tab-intro {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+@keyframes loading {
+  to {
+    background-position-x: -20%;
+  }
+}
+.el-skeleton.is-animated .el-skeleton__item {
+  background-color: #282b3a;
+  background: linear-gradient(100deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 60%) rgba(255, 255, 255, 0.2);
+  background-size: 200% 100%;
+  background-position-x: 180%;
+  animation: 1s loading ease-in-out infinite;
+}
+.wrapper {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.tab-content-title {
+  &:hover {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+}
+.el-tabs__item {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.user-tab-menus .el-tabs__item.is-active {
+  color: rgba(255, 255, 255, 1) !important;
+}
+.titleAndClose {
+  color: rgba(255, 255, 255, 1);
+}
+.notify-item.big {
+  background-color: #282b3a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  .bfont {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .op-name {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+.read-all {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.el-tabs__nav {
+  .el-tabs__item {
+    color: rgba(255, 255, 255, 0.3);
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  .is-active {
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: underline rgba(255, 255, 255, 0.7);
+  }
+}
+.el-tabs__item.is-active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.content-create {
+  .title {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.content-create {
+  .sel-row {
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+  }
+  .pic-icon {
+    filter: invert(50%);
+  }
+}
+.language-router .language,
+.language-text,
+.secondSection a {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.el-input__inner {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333333;
+  &::-webkit-input-placeholder {
+    color: #999;
+  }
+}
+.go-back {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.upload-pic {
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+.put-on-title {
+  span {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.main-Wrapper2 {
+  .top-Row2,
+  .top-Row1 {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .chooseFile-Title {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .chooseFile-Text {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .unit {
+    .font1 {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+  }
+  .Verification,
+  .Verification-Text {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+}
+.custom-button {
+  border: none;
+  &:hover {
+    border: none;
+  }
+}
+.collection-wrapper {
+  .preview-title {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .pre-box {
+    color: rgba(255, 255, 255, 0.5) !important;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    .price {
+      color: rgba(36, 39, 54, 0.5) !important;
+    }
+  }
+
+  .title {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .form-item-label {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .bfont {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .form-item-title,
+  .production-title,
+  .form-item-label {
+    color: rgba(255, 255, 255, 0.7) !important;
+    .c {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+  }
+}
+.collection-item {
+  .a {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+}
+.left-menus {
+  background-color: #3b3c40 !important;
+  .left-menu {
+    filter: invert(100%);
+  }
+}
+.right-section {
+  overflow: auto;
+  .nft-name {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .description,
+  .nft-meta {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .property-item,
+  .category-item {
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .name {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+.right-footer-wrap {
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 0px;
+}
+/* 滚动槽（轨道）宽高 */
+::-webkit-scrollbar {
+  width: 5px; /*对垂直流动条有效*/
+  max-width: 5px;
+  height: 0; /*对水平流动条有效*/
+}
+/* 滚动槽（轨道）样式 */
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/*定义滑块颜色、内阴影及圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #7092c0;
+}
+.tabClass {
+  color: rgba(255, 255, 255, 0.5);
+}
+.no-content-image {
+  img {
+    display: none;
+  }
+}
+.no-content-tip {
+  margin-top: 100px;
+  color: rgba(255, 255, 255, 0.5);
+}
