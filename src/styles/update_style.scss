@@ -267,6 +267,10 @@ body,
 }
 .right-section {
   overflow: auto;
+  background-color: none !important;
+  .right-main-content {
+    background-color: #3b3c40 !important;
+  }
   .nft-name {
     color: rgba(255, 255, 255, 0.7);
   }
