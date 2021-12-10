@@ -6,6 +6,9 @@ body,
 .detail-left {
   background-color: #242736;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
+  .name-text {
+    color: rgba(255, 255, 255, 1);
+  }
   * {
     color: rgba(255, 255, 255, 0.7);
   }
@@ -19,13 +22,16 @@ body,
 }
 //  搜索框
 .header-search {
-  background-color: #242736;
+  background-color: rgba(255, 255, 255, 0);
   .iconfont {
     color: rgba(255, 255, 255, 0.5);
   }
   .el-input__inner {
     border: 1px solid #5c6281;
     color: rgba(255, 255, 255, 0.7);
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.3);
+    }
   }
 }
 .head-wrapper {
@@ -90,15 +96,52 @@ body,
       justify-content: center;
     }
   }
-
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      top: 100px;
+    }
+    50% {
+      opacity: 0.8;
+      top: -10px;
+    }
+    100% {
+      opacity: 1;
+      top: -3px;
+    }
+  }
   .nft-item {
+    max-width: 240px;
+    position: relative;
+    -webkit-animation: slide 1s 0s;
+    -webkit-animation-fill-mode: forwards;
+    .el-image {
+      background: linear-gradient(to bottom right, #9e9e9e, #f8f6f2);
+      .el-image__inner {
+        // transform: scale(0.8);
+      }
+    }
+    .collection-btn {
+      background-color: rgba(255, 255, 255, 0);
+      color: rgba(255, 255, 255, 0.5);
+      &:hover {
+        color: rgba(255, 255, 255, 1);
+      }
+    }
     .price {
       color: rgba(255, 255, 255, 0.7);
     }
     .inner {
       background-color: #282b3a;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      // box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.01);
+      .descript {
+        // padding: 0 10px;
+        .d {
+          height: 34px;
+          padding: 5px 10px;
+        }
+      }
       .cpointer {
         color: rgba(255, 255, 255, 1);
       }
@@ -187,6 +230,7 @@ body,
 .secondSection a {
   color: rgba(255, 255, 255, 0.5) !important;
 }
+.el-textarea__inner,
 .el-input__inner {
   background-color: rgba(255, 255, 255, 0.8);
   color: #333333;
@@ -329,4 +373,7 @@ body,
 .no-content-tip {
   margin-top: 100px;
   color: rgba(255, 255, 255, 0.5);
+}
+.fontStyle1 {
+  color: rgba(255, 255, 255, 0.7) !important;
 }

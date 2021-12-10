@@ -4,7 +4,7 @@
     <div class="banner-context main-wrapper">
       <div>
         <el-image class="banner-title" :src="require('@/assets/image/legend.png')"> </el-image>
-        <div class="des">Born for the <span style="font-weight: bold; color: #fff;">Territory</span></div>
+        <div class="des">Born for the Territory</div>
       </div>
       <!-- <div class="tip">{{ $t('home.tip1')}}</div>
       <div class="tip">{{ $t('home.tip2') }}</div> -->

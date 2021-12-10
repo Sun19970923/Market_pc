@@ -127,7 +127,7 @@
 
                 <div class="myself-unit">
                   <img class="paytoken-img"
-                    src="@/assets/img/FINGER.jpg"
+                    src="@/assets/img/metamask.png"
                   />
                   <div class="myself-unit-text">
                     <div class="myself-unit-title">
