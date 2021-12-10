@@ -81,11 +81,20 @@ body,
 }
 .search-list,
 .new-nft-list {
-  min-height: 600px;
-  .loading-over {
-    margin: auto;
+  min-height: 300px;
+  .nft {
+    min-height: 300px;
+    .cel-load-status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
+
   .nft-item {
+    .price {
+      color: rgba(255, 255, 255, 0.7);
+    }
     .inner {
       background-color: #282b3a;
       border: 1px solid rgba(255, 255, 255, 0.1);
