@@ -45,14 +45,14 @@
           <span v-if="message.unread" class="red-tip"></span>
         </router-link>
  
-        <router-link
+        <!-- <router-link
           class="create-link"
           to="/Create"
         >
           <el-button class="custom-button" round size="mini">
             {{ $t("navigation.create") }}
           </el-button>
-        </router-link>
+        </router-link> -->
         <router-link to="/connect" class="flex align-center" v-if="!connected">
           <div class="head-connect">
             {{ $t("navigation.connectWallet") }}
